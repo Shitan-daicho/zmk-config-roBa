@@ -65,10 +65,10 @@
 
         default_layer {
             bindings = <
-&lt_to_layer_0 6 Q  &kp W         &kp E         &kp R                           &kp T                                                                         &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&mt LCTRL A         &kp S         &kp D         &kp F                           &kp G        &kp LS(LG(S))                             &kp MINUS              &kp H        &kp J  &kp K      &kp L    &kp QUESTION
-&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                           &kp B        &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 7 LANG_KATAKANA  &lt 2 SPACE  &lt_to_layer_0 3 LANG_ZENKAKUHANKAKU      &kp BACKSPACE          &lt 1 ENTER                             &kp DEL
+&lt_to_layer_0 6 Q  &kp W         &kp E         &kp R                    &kp T                                                              &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&mt LCTRL A         &kp S         &kp D         &kp F                    &kp G        &kp LS(LG(S))                  &kp MINUS              &kp H        &kp J  &kp K      &kp L    &kp QUESTION
+&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                    &kp B        &kp LEFT_PARENTHESIS           &kp RIGHT_PARENTHESIS  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 7 ESCAPE  &lt 2 SPACE  &lt_to_layer_0 3 LA(APOS)      &kp BACKSPACE          &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
