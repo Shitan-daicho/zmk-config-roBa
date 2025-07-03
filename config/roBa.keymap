@@ -65,10 +65,10 @@
 
         default_layer {
             bindings = <
-&lt_to_layer_0 6 Q  &kp W         &kp E         &kp R                    &kp T                                                              &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&mt LCTRL A         &kp S         &kp D         &kp F                    &kp G        &kp LS(LG(S))                  &kp MINUS              &kp H        &kp J  &kp K      &kp L    &kp QUESTION
-&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                    &kp B        &kp LEFT_PARENTHESIS           &kp RIGHT_PARENTHESIS  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 7 ESCAPE  &lt 2 SPACE  &lt_to_layer_0 3 LA(APOS)      &kp BACKSPACE          &lt 1 ENTER                             &kp DEL
+&lt_to_layer_0 6 Q  &kp W         &kp E         &kp R                    &kp T                                                               &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&mt LCTRL A         &kp S         &kp D         &kp F                    &kp G        &kp LS(LG(S))                   &kp MINUS              &kp H        &kp J  &kp K      &kp L    &kp QUESTION
+&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                    &kp B        &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 7 ESCAPE  &lt 2 SPACE  &lt_to_layer_0 3 LA(GRAVE)      &kp BACKSPACE          &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -76,10 +76,10 @@
 
         FUNCTION {
             bindings = <
-&trans     &trans  &trans  &trans  &trans                                           &kp AT_SIGN    &kp HASH          &kp AMPERSAND  &kp PERCENT        &kp F7
-&kp LCTRL  &trans  &trans  &trans  &trans  &trans                &kp EXCLAMATION    &kp DOLLAR     &kp INT_YEN       &kp APOS       &kp DOUBLE_QUOTES  &kp F10
-&trans     &trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN  &kp SEMICOLON  &kp COLON          &kp F6
-&trans     &trans  &trans  &trans  &trans  &trans                &trans             &trans                                                             &kp F8
+&trans     &trans  &trans  &trans  &trans                                       &kp AT_SIGN    &kp HASH          &kp AMPERSAND  &kp PERCENT        &kp F7
+&kp LCTRL  &trans  &trans  &trans  &trans  &trans              &kp EXCLAMATION  &kp DOLLAR     &kp CARET         &kp APOS       &kp DOUBLE_QUOTES  &kp F10
+&trans     &trans  &trans  &trans  &trans  &kp LEFT_BRACE      &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp SEMICOLON  &kp COLON          &kp F6
+&trans     &trans  &trans  &trans  &trans  &trans              &trans           &trans                                                             &kp F8
             >;
         };
 
