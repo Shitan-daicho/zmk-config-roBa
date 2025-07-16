@@ -78,7 +78,7 @@
             bindings = <
 &kp KP_SLASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTRK                                     &kp AT_SIGN    &kp HASH          &kp AMPERSAND  &kp PERCENT        &kp F10
 &kp KP_COMMA  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS  &trans         &kp EXCLAMATION  &kp DOLLAR     &kp CARET         &kp APOS       &kp DOUBLE_QUOTES  &kp F7
-&kp KP_DOT    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS   &kp EQUAL      &kp UNDER        &kp LESS_THAN  &kp GREATER_THAN  &kp SEMICOLON  &kp COLON          &kp F8
+&kp KP_DOT    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS   &kp EQUAL      &kp UNDER        &kp LESS_THAN  &kp GREATER_THAN  &kp SEMICOLON  &kp COLON          &kp F4
 &kp LCTRL     &trans           &kp KP_NUMBER_0  &trans           &trans        &trans         &kp TILDE        &trans                                                             &kp F2
             >;
         };
